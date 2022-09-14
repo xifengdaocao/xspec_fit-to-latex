@@ -1,0 +1,43 @@
+Free parameters defined:
+========================================================================
+Model constant<1>*TBabs<2>(nthComp<3> + relxillCp   <4>) Source No.: 1   Active/On
+Model Model Component  Parameter  Unit     Value
+ par  comp
+                           Data group: 1
+   2    2   TBabs      nH         10^22    7.26812      +/-  0.146343     
+   3    3   nthComp    Gamma               2.02639      +/-  3.00984E-02  
+   4    3   nthComp    kT_e       keV      36.6270      +/-  19.5760      
+   8    3   nthComp    norm                0.680068     +/-  0.707482     
+   9    4   relxillCp   Index1              10.0000      +/-  2.18504      
+  10    4   relxillCp   Index2              0.830934     +/-  1.61025      
+  12    4   relxillCp   Rbr1                4.84621      +/-  2.79019      
+  13    4   relxillCp   Rbr2                309.651      +/-  369.610      
+  14    4   relxillCp   a                   0.998000     +/-  1.20496E-02  
+  20    4   relxillCp   logxi               3.50602      +/-  6.51022E-02  
+  21    4   relxillCp   Afe                 0.500000     +/-  0.221443     
+  27    4   relxillCp   norm                2.46038E-02  +/-  8.60505E-03  
+                           Data group: 2
+  28    1   constant   factor              1.91028      +/-  2.50073E-02  
+________________________________________________________________________
+
+
+Fit statistic  : Chi-Squared                     0.0     using 2108 bins.
+                 Chi-Squared                     0.0     using 114 bins.
+Total fit statistic                          2431.72     with 2209 d.o.f.
+
+Test statistic : Chi-Squared                 2431.72     using 2222 bins.
+ Null hypothesis probability of 5.68e-04 with 2209 degrees of freedom
+
+     2      7.17131      7.36892    (-0.0968092,0.100797)
+     3      2.00841      2.04092    (-0.017987,0.0145244)
+     4      20.2186      42.9409    (-16.4084,6.3139)
+     8     0.384731     0.955708    (-0.295337,0.27564)
+     9      9.90697            0    (-0.0930279,-10)
+    10            0      1.02895    (-0.830934,0.198012)
+    12      3.65126        5.621    (-1.19495,0.77479)
+    13      216.689            0    (-92.9622,-309.651)
+    14     0.995659            0    (-0.00234147,-0.998)
+    20      3.45599       3.5515    (-0.0500277,0.0454833)
+    21            0     0.513596    (-0.5,0.013596)
+    27    0.0175262    0.0271275    (-0.00707762,0.00252366)
+    28      1.89002      1.92767    (-0.0202619,0.0173906)

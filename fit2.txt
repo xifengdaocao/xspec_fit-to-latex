@@ -18,19 +18,13 @@ Model Model Component  Parameter  Unit     Value
   22    4   relxillCp  norm                0.339478     +/-  5.97237E-02  
   30    5   xillverCp  norm                6.54816E-03  +/-  7.02625E-03  
                            Data group: 2
-  31    1   constant   factor              1.84658      +/-  1.03424E-02  
+  31    1   constant   factor_2              1.84658      +/-  1.03424E-02  
 ________________________________________________________________________
-
-
 Fit statistic  : Chi-Squared                     0.0     using 2108 bins.
                  Chi-Squared                     0.0     using 114 bins.
 Total fit statistic                          2334.18     with 2208 d.o.f.
-
 Test statistic : Chi-Squared                 2334.18     using 2222 bins.
-
 save all relcp+xill_xi_0.xcm
- 
-
      2      8.89556      9.01906    (-0.0842857,0.0392163)
      3      2.40926      2.42668    (-0.00960847,0.00781501)
      4      89.9354      126.904    (-16.9946,19.9736)
@@ -45,4 +39,3 @@ save all relcp+xill_xi_0.xcm
     22      0.33197      0.39042    (-0.00750818,0.0509422)
     30  0.000763234    0.0143121    (-0.00578493,0.00776397)
     31      1.83347       1.8578    (-0.0131058,0.0112202)
-

@@ -17,17 +17,13 @@ Model Model Component  Parameter  Unit     Value
   21    4   relxillCp   Afe                 0.500000     +/-  0.221443     
   27    4   relxillCp   norm                2.46038E-02  +/-  8.60505E-03  
                            Data group: 2
-  28    1   constant   factor              1.91028      +/-  2.50073E-02  
+  28    1   constant   factor_2              1.91028      +/-  2.50073E-02  
 ________________________________________________________________________
-
-
 Fit statistic  : Chi-Squared                     0.0     using 2108 bins.
                  Chi-Squared                     0.0     using 114 bins.
 Total fit statistic                          2431.72     with 2209 d.o.f.
-
 Test statistic : Chi-Squared                 2431.72     using 2222 bins.
  Null hypothesis probability of 5.68e-04 with 2209 degrees of freedom
-
      2      7.17131      7.36892    (-0.0968092,0.100797)
      3      2.00841      2.04092    (-0.017987,0.0145244)
      4      20.2186      42.9409    (-16.4084,6.3139)

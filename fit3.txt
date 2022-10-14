@@ -19,16 +19,13 @@ Model Model Component  Parameter  Unit     Value
   26    5   xillverCp  logxi               2.44824      +/-  0.132898     
   30    5   xillverCp  norm                2.42269E-02  +/-  5.41741E-03  
                            Data group: 2
-  31    1   constant   factor              1.86088      +/-  1.12632E-02  
+  31    1   constant   factor_2              1.86088      +/-  1.12632E-02  
 ________________________________________________________________________
-
 Fit statistic  : Chi-Squared                 2146.80     using 2108 bins.
                  Chi-Squared                  140.43     using 114 bins.
 Total fit statistic                          2287.23     with 2207 d.o.f.
-
 Test statistic : Chi-Squared                 2287.23     using 2222 bins.
  Null hypothesis probability of 1.14e-01 with 2207 degrees of freedom
-
      2      8.99724      9.08844    (-0.0475301,0.0436691)
      3      2.41502      2.43304    (-0.00945863,0.00856657)
      4      93.6493      132.281    (-20.4129,18.2184)

@@ -18,7 +18,7 @@
 !XSPEC12> show free
 Free parameters defined:
 ========================================================================
-Model constant<1>*TBabs<2>(nthComp<3> + diskbb<4> + relxillionCp_nk <5> + xillverCp<6>) Source No.: 1   Active/On
+Model constant<1>*TBabs<2>(nthComp<3> + diskbb<4> + relxillionCp_nk   <5> + xillverCp<6>) Source No.: 1   Active/On
 Model Model Component  Parameter  Unit     Value
  par  comp
                            Data group: 1
@@ -28,15 +28,15 @@ Model Model Component  Parameter  Unit     Value
    8    3   nthComp    norm                1.68521      +/-  0.223029     
    9    4   diskbb     Tin        keV      0.338533     +/-  3.88221E-02  
   10    4   diskbb     norm                8.86038E+04  +/-  8.65312E+04  
-  11    5   relxillionCp_nk Index1              9.77334      +/-  1.17668      
-  12    5   relxillionCp_nk Index2              0.830544     +/-  0.776656     
-  14    5   relxillionCp_nk Rbr1                4.80141      +/-  1.59638      
-  16    5   relxillionCp_nk a                   0.992196     +/-  3.20529E-03  
-  17    5   relxillionCp_nk Incl       deg      77.2714      +/-  1.03466      
-  22    5   relxillionCp_nk logxi               3.11009      +/-  9.61405E-02  
-  23    5   relxillionCp_nk Afe                 0.835409     +/-  0.127568     
-  26    5   relxillionCp_nk xi_index            0.171365     +/-  2.55546E-02  
-  30    5   relxillionCp_nk norm                6.52235E-03  +/-  1.18725E-03  
+  11    5   relxillionCp_nk   Index1              9.77334      +/-  1.17668      
+  12    5   relxillionCp_nk   Index2              0.830544     +/-  0.776656     
+  14    5   relxillionCp_nk   Rbr1                4.80141      +/-  1.59638      
+  16    5   relxillionCp_nk   a                   0.992196     +/-  3.20529E-03  
+  17    5   relxillionCp_nk   Incl       deg      77.2714      +/-  1.03466      
+  22    5   relxillionCp_nk   logxi               3.11009      +/-  9.61405E-02  
+  23    5   relxillionCp_nk   Afe                 0.835409     +/-  0.127568     
+  26    5   relxillionCp_nk   xi_index            0.171365     +/-  2.55546E-02  
+  30    5   relxillionCp_nk   norm                6.52235E-03  +/-  1.18725E-03  
   38    6   xillverCp  norm                2.53420E-03  +/-  2.43342E-03  
                            Data group: 2
   39    1   constant   factor_2              1.01520      +/-  8.27697E-04  

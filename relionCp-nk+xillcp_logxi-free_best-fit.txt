@@ -1,0 +1,51 @@
+     2      7.58715      8.97676    (-0.489846,0.899764)
+     3       2.1089      2.19932    (-0.0488469,0.0415775)
+     4      57.6101      162.515    (-43.5357,61.3688)
+     8      1.69988      2.05413    (-0.200218,0.154029)
+     9     0.266227     0.374124    (-0.0580137,0.0498836)
+    10      70474.2  1.20103e+06    (-77398.2,1.05316e+06)
+    11      8.14019      9.43602    (-0.723287,0.572541)
+    12      1.46737      2.09807    (-0.230927,0.399775)
+    14      1.95065      4.67908    (-1.28082,1.44762)
+    16      0.98982     0.994789    (-0.00238412,0.00258465)
+    17      74.0132      79.2525    (-2.79107,2.4482)
+    22      2.94102      3.28357    (-0.120676,0.221875)
+    23     0.777775      1.18832    (-0.0579387,0.352606)
+    26      0.15797      0.46678    (-0.0580064,0.250804)
+    30   0.00615403   0.00836923    (-0.00124274,0.000972452)
+    34      1.60755      2.30033    (-0.38694,0.305836)
+    38    0.0016739    0.0062968    (-0.00247592,0.00214697)
+    39      1.01383      1.01656    (-0.00136074,0.00136323)
+!XSPEC12> show free
+Free parameters defined:
+========================================================================
+Model constant<1>*TBabs<2>(nthComp<3> + diskbb<4> + relxillionCp_nk  <5> + xillverCp<6>) Source No.: 1   Active/On
+Model Model Component  Parameter  Unit     Value
+ par  comp
+                           Data group: 1
+   2    2   TBabs      nH         10^22    8.07699      +/-  0.595560
+   3    3   nthComp    Gamma               2.15774      +/-  3.87822E-02
+   4    3   nthComp    kT_e       keV      101.146      +/-  76.3428
+   8    3   nthComp    norm                1.90010      +/-  0.238817
+   9    4   diskbb     Tin        keV      0.324240     +/-  3.66049E-02
+  10    4   diskbb     norm                1.47872E+05  +/-  1.46561E+05
+  11    5   relxillionCp_nk  Index1              8.86348      +/-  1.10574
+  12    5   relxillionCp_nk  Index2              1.69830      +/-  0.583286
+  14    5   relxillionCp_nk  Rbr1                3.23147      +/-  1.29601
+  16    5   relxillionCp_nk  a                   0.992204     +/-  5.23118E-03
+  17    5   relxillionCp_nk  Incl       deg      76.8043      +/-  1.04162
+  22    5   relxillionCp_nk  logxi               3.06170      +/-  9.89346E-02
+  23    5   relxillionCp_nk  Afe                 0.835714     +/-  0.115941
+  26    5   relxillionCp_nk  xi_index            0.215976     +/-  9.52081E-02
+  30    5   relxillionCp_nk  norm                7.39677E-03  +/-  1.10896E-03
+  34    6   xillverCp  logxi               1.99449      +/-  0.235223
+  38    6   xillverCp  norm                4.14982E-03  +/-  2.44238E-03
+                           Data group: 2
+  39    1   constant   factor_2              1.01519      +/-  8.27698E-04
+________________________________________________________________________
+!XSPEC12> show fit
+Fit statistic  : Chi-Squared                     0.0     using 1313 bins.
+                 Chi-Squared                     0.0     using 1303 bins.
+Total fit statistic                          2660.08     with 2598 d.o.f.
+Test statistic : Chi-Squared                 2660.08     using 2616 bins.
+ Null hypothesis probability of 1.94e-01 with 2598 degrees of freedom

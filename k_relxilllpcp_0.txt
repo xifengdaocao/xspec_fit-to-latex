@@ -20,7 +20,7 @@
 XSPEC12>show free
 Free parameters defined:
 ========================================================================
-Model constant<1>*TBabs<2>(kerrbb<3> + nthComp<4> + relxilllpCp     <5>) Source No.: 1   Active/On
+Model constant<1>*TBabs<2>(kerrbb<3> + nthComp<4> + relxilllpCp        <5>) Source No.: 1   Active/On
 Model Model Component  Parameter  Unit     Value
  par  comp
                            Data group: 1
@@ -30,14 +30,14 @@ Model Model Component  Parameter  Unit     Value
    8    3   kerrbb     Dbh        kpc      8.58870      +/-  13.8077
   15    4   nthComp    kT_bb      keV      0.382179     +/-  0.443811
   18    4   nthComp    norm                1.37472      +/-  1.33254
-  19    5   relxilllpCp     Incl       deg      32.7246      +/-  1.16381
-  20    5   relxilllpCp     a                   0.993290     +/-  0.256993
-  23    5   relxilllpCp     h          GM/c^2   9.41221      +/-  1.72319
-  25    5   relxilllpCp     gamma               2.36262      +/-  2.23882E-02
-  26    5   relxilllpCp     logxi               4.40766      +/-  0.134886
-  28    5   relxilllpCp     Afe                 10.0000      +/-  6.39009
-  29    5   relxilllpCp     kTe        keV      445.630      +/-  1695.88
-  36    5   relxilllpCp     norm                1.52103E-02  +/-  2.64894E-03
+  19    5   relxilllpCp        Incl       deg      32.7246      +/-  1.16381
+  20    5   relxilllpCp        a                   0.993290     +/-  0.256993
+  23    5   relxilllpCp        h          GM/c^2   9.41221      +/-  1.72319
+  25    5   relxilllpCp        gamma               2.36262      +/-  2.23882E-02
+  26    5   relxilllpCp        logxi               4.40766      +/-  0.134886
+  28    5   relxilllpCp        Afe                 10.0000      +/-  6.39009
+  29    5   relxilllpCp        kTe        keV      445.630      +/-  1695.88
+  36    5   relxilllpCp        norm                1.52103E-02  +/-  2.64894E-03
                            Data group: 2
   37    1   constant   factor_2              0.990069     +/-  6.52508E-04
                            Data group: 3

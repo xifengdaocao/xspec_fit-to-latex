@@ -17,7 +17,7 @@
 XSPEC12>show free
 Free parameters defined:
 ========================================================================
-Model constant<1>*TBabs<2>(kerrbb<3> + nthComp<4> + relxilllpCp <5>) Source No.: 1   Active/On
+Model constant<1>*TBabs<2>(kerrbb<3> + nthComp<4> + relxilllpCp    <5>) Source No.: 1   Active/On
 Model Model Component  Parameter  Unit     Value
  par  comp
                            Data group: 1
@@ -27,14 +27,14 @@ Model Model Component  Parameter  Unit     Value
    8    3   kerrbb     Dbh        kpc      8.88697      +/-  281.405
   15    4   nthComp    kT_bb      keV      0.347593     +/-  0.499262
   18    4   nthComp    norm                1.48576      +/-  1.59569
-  19    5   relxilllpCp Incl       deg      32.8695      +/-  1.24695
-  20    5   relxilllpCp a                   0.993067     +/-  0.252966
-  23    5   relxilllpCp h          GM/c^2   9.68065      +/-  3.87491
-  25    5   relxilllpCp gamma               2.36437      +/-  2.27307E-02
-  26    5   relxilllpCp logxi               4.38320      +/-  0.165434
-  28    5   relxilllpCp Afe                 9.55913      +/-  3.29717
-  29    5   relxilllpCp kTe        keV      433.335      +/-  2321.33
-  36    5   relxilllpCp norm                1.35545E-02  +/-  5.82792E-03
+  19    5   relxilllpCp    Incl       deg      32.8695      +/-  1.24695
+  20    5   relxilllpCp    a                   0.993067     +/-  0.252966
+  23    5   relxilllpCp    h          GM/c^2   9.68065      +/-  3.87491
+  25    5   relxilllpCp    gamma               2.36437      +/-  2.27307E-02
+  26    5   relxilllpCp    logxi               4.38320      +/-  0.165434
+  28    5   relxilllpCp    Afe                 9.55913      +/-  3.29717
+  29    5   relxilllpCp    kTe        keV      433.335      +/-  2321.33
+  36    5   relxilllpCp    norm                1.35545E-02  +/-  5.82792E-03
                            Data group: 2
   37    1   constant   factor_2              0.990072     +/-  6.52521E-04
                            Data group: 3

@@ -1,0 +1,47 @@
+     2      1.09187      1.14154    (-0.0253035,0.0243632)
+     6      13.0664      57.1427    (-0.807204,43.2691)
+     7     0.438197      4.31069    (-0.312553,3.55994)
+     8      8.56609      16.7715    (-0.744381,7.46107)
+    15      2.26812      2.38297    (-0.0545667,0.0602831)
+    16      12.7672      14.8884    (-0.847039,1.27417)
+    18     0.979504            0    (-0.0184961,-0.998)
+    19      26.9379      29.0166    (-1.18758,0.891117)
+    23      2.44581      2.45766    (-0.00587347,0.00597375)
+    24      4.62025            0    (-0.0423202,-4.66258)
+    25      9.10888            0    (-0.891115,-10)
+    26      901.035            0    (-98.9651,-1000)
+    30    0.0165067    0.0198344    (-0.00144721,0.00188052)
+    31     0.988996     0.991142    (-0.00107249,0.00107424)
+    61      0.99012      1.01277    (-0.0112805,0.0113645)
+XSPEC12>show free
+Free parameters defined:
+========================================================================
+Model constant<1>*TBabs<2>(kerrbb<3> + cutoffpl<4> + relxilllp<5>) Source No.: 1   Active/On
+Model Model Component  Parameter  Unit     Value
+ par  comp
+                           Data group: 1
+   2    2   TBabs      nH         10^22    1.11717      +/-  2.32485E-02
+   6    3   kerrbb     Mbh        Msun     13.8736      +/-  13.5675
+   7    3   kerrbb     Mdd        Mdd0     0.750750     +/-  1.40040
+   8    3   kerrbb     Dbh        kpc      9.31047      +/-  8.84488
+  15    4   cutoffpl   norm                2.32268      +/-  0.132843
+  16    5   relxilllp  h          GM/c^2   13.6142      +/-  1.63193
+  18    5   relxilllp  a                   0.998000     +/-  4.62232E-02
+  19    5   relxilllp  Incl       deg      28.1255      +/-  1.54675
+  23    5   relxilllp  gamma               2.45169      +/-  2.87490E-02
+  24    5   relxilllp  logxi               4.66258      +/-  0.110402
+  25    5   relxilllp  Afe                 10.0000      +/-  4.25817
+  26    5   relxilllp  Ecut       keV      1000.00      +/-  3057.42
+  30    5   relxilllp  norm                1.79538E-02  +/-  2.28636E-03
+                           Data group: 2
+  31    1   constant   factor_2              0.990068     +/-  6.52505E-04
+                           Data group: 3
+  61    1   constant   factor_3              1.00140      +/-  7.30349E-03
+________________________________________________________________________
+XSPEC12>show fit
+Fit statistic  : Chi-Squared                     0.0     using 300 bins.
+                 Chi-Squared                     0.0     using 295 bins.
+                 Chi-Squared                     0.0     using 19 bins.
+Total fit statistic                           882.34     with 599 d.o.f.
+Test statistic : Chi-Squared                  882.34     using 614 bins.
+ Null hypothesis probability of 3.40e-13 with 599 degrees of freedom

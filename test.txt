@@ -16,7 +16,6 @@ Model Model Component  Parameter  Unit     Value
   18    4   relxillCp  logxi               2.70101      +/-  5.70357E-02  
   19    4   relxillCp  Afe                 0.500000     +/-  7.95445E-02  
   22    4   relxillCp  norm                0.375427     +/-  7.45743E-02  
-                           Data group: 2
   23    1   constant   factor_2              1.85021      +/-  1.00780E-02  
 ________________________________________________________________________
 Fit statistic  : Chi-Squared                 2201.56     using 2108 bins.
